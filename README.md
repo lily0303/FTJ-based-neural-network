@@ -15,6 +15,6 @@ The LTP/LTD characteristics of FTJ is import:
 ```Python
 from curve2 import Y
 ```
-For three pulse schemes, Y can be import from curve1 (scheme1), curve2 (scheme2) or curve3 (scheme3).
+For three pulse schemes, Y can be import from `curve1 (scheme1)`, `curve2 (scheme2)` or `curve3 (scheme3)`.
 In my experiments, I found that learning rate has a significant impact on the final performance and 0.2 is the learning rate I used (may not be the best).
 
