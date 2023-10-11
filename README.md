@@ -2,8 +2,6 @@
 This is the code repository for our reserch "A physics-based predictive model for pulse design to realize high-performance memristive neural networks". 
 ## Introduction
 This repository contains PyTorch implementation of neural network train in situ, and the network is train based on FTJ. The Ferroelectric tunnel junction(FTJ)-based neural network uses the LTP/LTD characteristics of the FTJ for the weight update. 
-## Motivation
-The training performance of memristive neural network depend on the pulse scheme applied to the constituent memristors. However, the design of the pulse scheme in most provious studies was approached in an empirical manner or through a trial-and-error method. We demonstrate a `physics-based predictive model` for the pulse design in memristive neural network. and this study may provide useful guidance for the pulse design in the experimental development of high-performance memristive neural networks.
 ## Dataset
 All experiments are done on MNIST, as it provides a training set of 60,000 handwritten digits and a validation set of 10,000 handwritten digits. The images have size 28*28 pixels.
 ## Usage
